@@ -34,3 +34,14 @@ int task1(void)
         }
     }
 }
+
+int task4(void)
+{
+   char str1[20];
+
+   printf("Enter equation:");
+   scanf("%s", &str1);
+   printf("Entered equation: %s\n", str1);
+   
+   return(0);
+}

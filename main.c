@@ -22,11 +22,12 @@ int main(int argv, char **argc){
 	
 	case '1':
 	    printf("Task 1: Guess the number game\n"); 
-            task1();        
+            task1();
 	    break; 
 
 	case '4' :
-	    printf("Task 4:\n"); 
+	    printf("Task 4: Calculator\n"); 
+            task4();
 	    break; 
 
 	default :
